@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+
+
+  
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -53,9 +56,9 @@ code {
   color: inherit;
   background-color: rgba(0, 0, 0, 0.04);
 }
-img { 
-  max-width:100%; 
-  height: auto; 
+img {
+  max-width:100%;
+  height: auto;
 }
 </style>
 <div class="container-fluid main-container">
@@ -98,23 +101,23 @@ img {
 <li><strong>Summary</strong> - summary for the regression model</li>
 </ul>
 <pre class="r"><code>   summary(lm(iris$Sepal.Width ~ iris$Sepal.Length))</code></pre>
-<pre><code>## 
+<pre><code>##
 ## Call:
 ## lm(formula = iris$Sepal.Width ~ iris$Sepal.Length)
-## 
+##
 ## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -1.1095 -0.2454 -0.0167  0.2763  1.3338 
-## 
+##     Min      1Q  Median      3Q     Max
+## -1.1095 -0.2454 -0.0167  0.2763  1.3338
+##
 ## Coefficients:
-##                   Estimate Std. Error t value Pr(&gt;|t|)    
+##                   Estimate Std. Error t value Pr(&gt;|t|)
 ## (Intercept)        3.41895    0.25356   13.48   &lt;2e-16 ***
-## iris$Sepal.Length -0.06188    0.04297   -1.44    0.152    
+## iris$Sepal.Length -0.06188    0.04297   -1.44    0.152
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ## Residual standard error: 0.4343 on 148 degrees of freedom
-## Multiple R-squared:  0.01382,    Adjusted R-squared:  0.007159 
+## Multiple R-squared:  0.01382,    Adjusted R-squared:  0.007159
 ## F-statistic: 2.074 on 1 and 148 DF,  p-value: 0.1519</code></pre>
 <ul>
 <li><strong>Photo</strong> - this tab includes the picture for each Iris species from Wikipedia</li>
